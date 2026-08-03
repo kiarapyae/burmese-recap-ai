@@ -245,41 +245,6 @@ export default function Home() {
           )}
         </div>
 
-        {/* Adsterra 160x300 Banner Sidebar */}
-<div className="flex justify-center items-start lg:pt-28">
-  <div className="w-[160px] h-[300px] bg-[#111726] border border-slate-800 rounded-xl overflow-hidden shadow-xl flex items-center justify-center">
-    <iframe
-      title="Adsterra 160x300 Banner"
-      srcDoc={`
-        <!DOCTYPE html>
-        <html>
-          <head>
-            <style>
-              body { margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; }
-            </style>
-          </head>
-          <body>
-            <script type="text/javascript">
-              atOptions = {
-                'key' : '3ea937db50f31ea0f41e1dbb56cb867d',
-                'format' : 'iframe',
-                'height' : 300,
-                'width' : 160,
-                'params' : {}
-              };
-            </script>
-            <script type="text/javascript" src="https://www.highperformanceformat.com/3ea937db50f31ea0f41e1dbb56cb867d/invoke.js"></script>
-          </body>
-        </html>
-      `}
-      width="160"
-      height="300"
-      style={{ border: 'none', overflow: 'hidden' }}
-      scrolling="no"
-    />
-  </div>
-</div>
-
       </div>
     </div>
   );

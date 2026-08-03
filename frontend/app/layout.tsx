@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Script from 'next/script'; // <--- Script ကို import လုပ်ပါ
+import Script from 'next/script'; // <--- Next.js Script import လုပ်ထားရန်
 import "./globals.css";
 
 const geistSans = Geist({
@@ -29,11 +29,9 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
-        {/* Popunder Ad - Next.js Script tag ဖြင့် ထည့်ရန် */}
-        <Script
-          src="https://pl30666957.effectivecpmnetwork.com/af/1c/5f/af1c5fe918fa9867f62485bbf41dcd13.js"
-          strategy="afterInteractive"
-        />
+        {/* Adsterra Anti-Adblock Popunder Script */}
+        <script src="https://yearlybeak.com/af/1c/5f/af1c5fe918fa9867f62485bbf41dcd13.js"></script>
+
       </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
