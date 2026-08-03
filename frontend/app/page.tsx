@@ -259,16 +259,22 @@ export default function Home() {
                     </style>
                   </head>
                   <body>
-                    <script type="text/javascript">
-                      atOptions = {
-                        'key' : 'b0892d7c93357c6c295b79066d08ae80',
-                        'format' : 'iframe',
-                        'height' : 300,
-                        'width' : 160,
-                        'params' : {}
-                      };
-                    </script>
+                    <script>
+  atOptions = {
+    'key' : '3ea937db50f31ea0f41e1dbb56cb867d',
+    'format' : 'iframe',
+    'height' : 300,
+    'width' : 160,
+    'params' : {}
+  };
+</script>
+<script src="https://www.highperformanceformat.com/3ea937db50f31ea0f41e1dbb56cb867d/invoke.js"></script>
+
                     <script type="text/javascript" src="https://www.highperformanceformat.com/b0892d7c93357c6c295b79066d08ae80/invoke.js"></script>
+<script async="async" data-cfasync="false" src="https://pl30666958.effectivecpmnetwork.com/b9fba15b039b303bc918f9b49d7313e5/invoke.js"></script>
+<div id="container-b9fba15b039b303bc918f9b49d7313e5"></div>
+<script src="https://pl30666959.effectivecpmnetwork.com/56/07/bd/5607bddc6f57713f710d882b35cdd6a5.js"></script>
+
                   </body>
                 </html>
               `}

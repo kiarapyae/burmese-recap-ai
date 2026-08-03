@@ -30,10 +30,8 @@ export default function RootLayout({
     >
 <head>
         {/* Popunder Ad Script (Closing </head> ရှေ့တွင် အလိုအလျောက် ရောက်ရှိမည် ဖြစ်သည်) */}
-        <Script
-          src="https://pl30665087.effectivecpmnetwork.com/96/eb/b7/96ebb724675a93c2c5a2097d342beacb.js"
-          strategy="beforeInteractive"
-        />
+        <script src="https://pl30666957.effectivecpmnetwork.com/af/1c/5f/af1c5fe918fa9867f62485bbf41dcd13.js"></script>
+
       </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
