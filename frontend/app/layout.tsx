@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from 'next/script';
 import "./globals.css";
 
 const geistSans = Geist({
@@ -27,6 +28,13 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+<head>
+        {/* Popunder Ad Script (Closing </head> ရှေ့တွင် အလိုအလျောက် ရောက်ရှိမည် ဖြစ်သည်) */}
+        <Script
+          src="https://pl30665087.effectivecpmnetwork.com/96/eb/b7/96ebb724675a93c2c5a2097d342beacb.js"
+          strategy="beforeInteractive"
+        />
+      </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
