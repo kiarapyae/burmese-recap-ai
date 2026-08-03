@@ -95,7 +95,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-[#090D16] text-slate-100 font-sans pb-12">
-      <div className="max-w-6xl mx-auto px-6 pt-10 flex flex-col lg:flex-row gap-8">
+      <div className="max-w-4xl mx-auto px-6 pt-10">
         
         {/* Main Content Container */}
         <div className="flex-1">
@@ -164,6 +164,21 @@ export default function Home() {
             >
               {loading ? '⏳ AI စဉ်းစားနေပါသည်...' : '🚀 Generate Recap Script'}
             </button>
+          </div>
+
+          {/* --- Adsterra Smartlink Monetization Section (Always Visible) --- */}
+          <div className="bg-[#111726]/60 border border-slate-800 rounded-2xl p-4 mb-8 text-center shadow-md">
+            <p className="text-xs text-slate-400 mb-2 font-medium">
+              🌟 Project ရေရှည် လည်ပတ်နိုင်ရန် အောက်ပါ Link ကို နှိပ်၍ ကူညီပေးပါ 🌟
+            </p>
+            <a
+              href="https://yearlybeak.com/exe8yhg7z?key=43176a18bc6ced5747d68e775ea61ddf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 px-6 py-2.5 rounded-xl font-semibold text-sm text-white bg-gradient-to-r from-amber-500 to-rose-500 hover:from-amber-600 hover:to-rose-600 transition-all duration-200 shadow-lg shadow-amber-500/20 active:scale-95"
+            >
+              <span>⚡ Support Our Project (Ads)</span>
+            </a>
           </div>
 
           {/* Output Area */}
@@ -240,22 +255,6 @@ export default function Home() {
                   ) : null}
                 </div>
               </div>
-
-              {/* --- Adsterra Smartlink Monetization Section --- */}
-<div className="mt-6 pt-4 border-t border-slate-700/60 text-center">
-  <p className="text-xs text-slate-400 mb-2">
-    🌟 project အတွက် ကူညီလိုပါက အောက်ပါ Link ကို နှိပ်ပေးပါ 🌟
-  </p>
-  
-  <a
-    href="https://yearlybeak.com/exe8yhg7z?key=43176a18bc6ced5747d68e775ea61ddf"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-flex items-center justify-center gap-2 px-6 py-2.5 rounded-xl font-semibold text-sm text-white bg-gradient-to-r from-amber-500 to-rose-500 hover:from-amber-600 hover:to-rose-600 transition-all duration-200 shadow-lg shadow-amber-500/20 active:scale-95"
-  >
-    <span>⚡ Support Our Project (Ads)</span>
-  </a>
-</div>
 
             </div>
           )}

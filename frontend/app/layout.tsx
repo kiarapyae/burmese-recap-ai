@@ -29,13 +29,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
-        {/* Adsterra Anti-Adblock Popunder Script */}
-        <Script
-  src="https://yearlybeak.com/af/1c/5f/af1c5fe918fa9867f62485bbf41dcd13.js"
-  strategy="afterInteractive"
-  referrerPolicy="no-referrer-when-downgrade"
-/>
-
+        
       </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
